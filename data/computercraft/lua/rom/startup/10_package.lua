@@ -9,7 +9,7 @@ package.cpath = ""
 package.path = "/rc/apis/?.lua;/rc/modules/main/?.lua;./lib/?.lua;./lib/?/init.lua;./?.lua;./?/init.lua"
 
 local function rm(api)
-		local tab = _G[api]
+	local tab = _G[api]
     _G[api] = nil
     return tab
 end
